@@ -13,7 +13,7 @@
 ## 注意事項
 
 1. 下載之後要先用文字處理器編輯 config.xml 這個檔案，填入
-  - 外掛程式的路徑 (路徑不限中文)：
+  - 外掛程式的路徑 (路徑可支援中日文)：
     - 支援免解壓的看圖程式 (例如 [CDisplayEx](http://www.cdisplayex.com/)，[HoneyView](https://tw.bandisoft.com/honeyview/) 等)
     - 網頁瀏覽器 (如果想使用右鍵網路搜尋功能)
     - 媒體播放軟體 (如果想左鍵播放影片檔)
