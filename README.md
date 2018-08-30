@@ -8,9 +8,9 @@
 
 (Windows 64bit portable)
 
-<a href="https://kokorolove.github.io/comic-manager/comic-manager 2018-08-31.rar" target="_blank">主程式</a>，檔案大小 416KB
+<a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-08-31" target="_blank">主程式</a>，檔案大小 416KB
 
-<a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank">影片縮圖外掛</a>，檔案大小 30MB
+<a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個 DLL 檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
 - 更新軟體版本時只需要重新下載主程式就好。
@@ -29,7 +29,7 @@
 ## 更新紀錄
  
 2018-08-31
-  - 
+  - 允許檔名中的第一個標籤代表年份 (例如 "C94")
  
 2018-08-30
   - 支援子目錄 (可在視窗左上角檢視目錄樹狀圖)
@@ -78,7 +78,7 @@
     
     (成年コミック) [雑誌] COMIC 失楽天 2018年6月号 [DL版].rar
     
-注意：程式雖然可以辨認年份標籤，但是年份不會顯示在檔案資訊和標籤欄位裡
+注意：程式雖然可以辨認年份標籤，但是年份不會顯示在檔案資訊和標籤欄位裡。
 
 3. 程式內建數種排版方式 (renderer)，除了預設模式之外其他的都還在測試中
 
