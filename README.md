@@ -18,7 +18,7 @@
 ## 系統需求
 
 - Windows 7/8/10
-- .NET framework ver 4.6.1 or later (<a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">下載最新版本</a>)
+- <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime ver 4.6.1 or later</a>
 
 ## 使用方式
  
