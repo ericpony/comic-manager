@@ -4,7 +4,7 @@
 
 島民版漫畫書庫管理程式
 
-## 主程式下載
+## 程式下載
 
 (Windows 64bit portable)
 
@@ -12,16 +12,18 @@
 
 <a href="https://kokorolove.github.io/comic-manager/comic-manager 2018-08-29 (with video support).rar" target="_blank">完整版 (支援影片檔案縮圖)</a>，檔案大小 30MB
 
+完整版比精簡版多了兩個(很大的)視訊解碼用 DLL 檔，可以讓程式生成和編輯視訊檔案的預覽圖。把這兩個 DLL 拿掉就成了精簡版。
+
 ## 系統需求
 
 - Windows 7/8/10
-- .NET framework ver 4.0 or later (<a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">官方下載連結</a>，Windows 8 之後內建)
+- .NET framework ver 4.6.1 or later (<a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">下載最新版本</a>)
 
 ## 使用方式
  
-- <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`)
- 
-- 常用快速鍵： Esc (清除過濾，顯示所有檔案)， F5 (重新整理，可載入磁碟上新增加的檔案)， F2 (修改檔名或檔案標籤) 
+- <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
+- 常用快速鍵：
+    Esc (清除過濾，顯示所有檔案)， F5 (重新整理，可載入磁碟上新增加的檔案)， F2 (修改檔名或檔案標籤) 
 
 ## 更新歷程
 
@@ -71,8 +73,8 @@
 
 ## 已知問題
  
-- 因為工具庫本身的限制，用 [Solid 模式](https://en.wikipedia.org/wiki/Solid_compression)壓縮的 RAR 或 7Z 壓縮檔目前無法產生縮圖
-- 縮圖的順序在某些操作步驟下會亂掉，問題修復前各位可以先用<a href="https://kokorolove.github.io/comic-manager/manual/images/sort.png" target="_blank">這個方法</a>來重新排序。
+- 因為工具庫本身的限制，用 [Solid 模式](https://en.wikipedia.org/wiki/Solid_compression)壓縮的 RAR 或 7Z 檔案目前無法產生縮圖
+- 縮圖的順序在某些操作步驟下會亂掉，問題修復前請先用<a href="https://kokorolove.github.io/comic-manager/manual/images/sort.png" target="_blank">這個方法</a>來重新排序
 
 ## 預定更新
 
