@@ -6,7 +6,7 @@
 
 ## 程式下載
 
-<a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-08-31" target="_blank">主程式</a>，檔案大小 416KB，Windows 64bit portable
+<a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-08-31" target="_blank">主程式</a>，檔案大小 416KB (Windows 64bit portable)
 
 <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
