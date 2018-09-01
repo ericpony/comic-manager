@@ -82,7 +82,7 @@
 
 3. 程式內建數種排版方式 (renderer)，除了預設模式之外其他的都還在測試中
 
-  暫時先這樣，如果有其他問題或 bug 請在上面發 issue 回報，謝謝大家 ≡(　ε:)
+  暫時先這樣，如果有任何操作問題/功能建議/錯誤回報，都歡迎在本專案[發 issue 討論](https://github.com/kokorolove/comic-manager/issues/new) (需註冊 Github 帳號)，謝謝大家 ≡(　ε:)
 
 ## 已知問題
  
