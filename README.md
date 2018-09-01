@@ -10,7 +10,7 @@
 
 <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
-- 外掛是兩個視訊解碼用的 DLL 檔，把這兩個 DLL 檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
+- 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
 - 更新軟體版本時只需要重新下載主程式就好。
  
 ## 系統需求
