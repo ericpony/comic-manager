@@ -6,9 +6,11 @@
 
 ## 程式下載
 
-<a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-08-31" target="_blank">主程式</a>，檔案大小 416KB (Windows 64bit portable)
+- 最近更新：2018-09-31
 
-<a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-08-31" target="_blank">主程式</a>，檔案大小 416KB (Windows 64bit portable)
+
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
 - 更新軟體版本時只需要重新下載主程式就好。
@@ -26,6 +28,10 @@
 
 ## 更新紀錄
  
+2018-09-02
+  - 修復排序有時候會跑掉的問題
+  - 允許用左鍵選單來設定排序方式
+
 2018-08-31
   - 允許檔名中的第一個標籤代表年份 (例如 "C94")
  
@@ -85,8 +91,8 @@
 ## 已知問題
  
 - 因為工具庫本身的限制，使用 [Solid 模式](https://en.wikipedia.org/wiki/Solid_compression)壓縮的檔案目前無法產生縮圖
-- 縮圖的順序在某些操作步驟下會亂掉，問題修復前請先用<a href="https://kokorolove.github.io/comic-manager/manual/images/sort.png" target="_blank">這個方法</a>來重新排序
+- 雖然可以個別為每部漫畫評分，但是目前還無法依評分來排序檔案
 
 ## 預定更新
 
-- 修復縮圖排序的問題 (讓排序方式固定)
+- 允許使用評分來排序檔案
