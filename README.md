@@ -86,7 +86,7 @@
 
 ## 已知問題
  
-- 因為工具庫本身的限制，使用 [Solid 模式](https://en.wikipedia.org/wiki/Solid_compression)壓縮的 RAR 或 7Z 檔案目前無法產生縮圖
+- 因為工具庫本身的限制，使用 [Solid 模式](https://en.wikipedia.org/wiki/Solid_compression)壓縮的檔案目前無法產生縮圖
 - 縮圖的順序在某些操作步驟下會亂掉，問題修復前請先用<a href="https://kokorolove.github.io/comic-manager/manual/images/sort.png" target="_blank">這個方法</a>來重新排序
 
 ## 預定更新
