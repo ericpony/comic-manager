@@ -1,6 +1,6 @@
 # comic-manager
 
-<a href="https://komica2.net/51/src/1535498090201.png" target="_blank"><img src="https://komica2.net/51/src/1535498090201.png" style="width:50%" /></a>
+<a href="https://kokorolove.github.io/comic-manager/manual/images/screenshot.png" target="_blank"><img src="https://kokorolove.github.io/comic-manager/manual/images/screenshot.png"/></a>
 
 島民版漫畫書庫管理程式
 
@@ -8,7 +8,7 @@
 
 - 最近更新：2018-09-02
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-08-31" target="_blank">主程式 (免安裝)</a>，檔案大小 416KB
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-09-02" target="_blank">主程式 (免安裝)</a>，檔案大小 416KB
 
     <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
