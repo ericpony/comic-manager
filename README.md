@@ -14,17 +14,6 @@
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
 - 更新軟體版本時只需要重新下載主程式就好。
- 
-## 系統需求
-
-- Windows 7/8/10
-- <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime ver 4.6.1 or later</a>
-
-## 使用方式
- 
-- <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
-- 常用快速鍵：
-    Esc (清除過濾，顯示所有檔案)， F5 (重新整理，可載入磁碟上新增加的檔案)， F2 (修改檔名或檔案標籤) 
 
 ## 更新紀錄
  
@@ -39,6 +28,17 @@
   - 支援子目錄 (可在視窗左上角檢視目錄樹狀圖)
   - 將程式分成支援和不支援影像縮圖兩個版本，降低檔案大小
 
+## 系統需求
+
+- Windows 7/8/10
+- <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime ver 4.6.1 or later</a>
+
+## 使用方式
+ 
+- <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
+- 常用快速鍵：
+    Esc (清除過濾，顯示所有檔案)， F5 (重新整理，可載入磁碟上新增加的檔案)， F2 (修改檔名或檔案標籤)
+
 ## 注意事項
 
 1. 下載之後要先用文字處理器編輯 config.xml 這個檔案，填入
@@ -48,7 +48,7 @@
     - 媒體播放軟體 (如果想左鍵播放影片檔)
   - 漫畫壓縮檔所在的根目錄
 
-  設定正確以後程式才能正常運作。以下是我在自己電腦上用的設定。
+  設定正確以後程式才能正常運作。以下是我在自己電腦用的設定。
 
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
