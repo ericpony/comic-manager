@@ -5,6 +5,6 @@
         <add key="ComicViewer" value="C:\Program Files\CDisplayEx\CDisplayEx.exe" />
         <add key="WebBrowser" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
         <add key="MediaPlayer" value="C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe" />
-        <add key="StartupDir" value="H:\COMIC\(一般コミック) [河下水希] あねどきっ 01-03" />
+        <add key="StartupDir" value="H:\COMIC" />
     </appSettings>
 </configuration>
