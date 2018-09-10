@@ -21,6 +21,7 @@
   - 允許用畫面下方的評分鈕為選取的檔案評分 (可一次選取多個檔案)
   - 修復左上搜尋框在打字時 focus 會跳掉的問題
   - 修復 [Issue #1](https://github.com/kokorolove/comic-manager/issues/1#issuecomment-417949603) 提到的 config 錯誤  
+  - 增加快速鍵 (見使用說明)
 
 2018-09-02
   - 修復排序有時候會跑掉的問題
@@ -41,8 +42,12 @@
 ## 使用方式
  
 - <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
-- 常用快速鍵：
-    Esc (清除過濾，顯示所有檔案)， F5 (重新整理，可載入磁碟上新增加的檔案)， F2 (修改檔名或檔案標籤)
+- 常用快速鍵：  
+    Esc: 重設關鍵字，顯示所有檔案  
+    F2:  修改檔名或檔案標籤  
+    F3:  設定關鍵字，只顯示同作者的檔案  
+    F4:  編輯預覽圖  
+    F5:  重新整理 (可載入磁碟上新增加的檔案)  
 
 ## 注意事項
 
