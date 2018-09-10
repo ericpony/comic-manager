@@ -6,9 +6,9 @@
 
 ## 程式下載
 
-- 最近更新：2018-09-02
+- 最近更新：2018-09-10
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-09-02" target="_blank">主程式 (免安裝)</a>，檔案大小 416KB
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-09-10" target="_blank">主程式 (免安裝)</a>，檔案大小 416KB
 
     <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
@@ -17,6 +17,11 @@
 
 ## 更新紀錄
  
+2018-09-10
+  - 允許用畫面下方的評分鈕為選取的檔案評分 (可一次選取多個檔案)
+  - 修復左上搜尋框在打字時 focus 會跳掉的問題
+  - 修復 [Issue #1](https://github.com/kokorolove/comic-manager/issues/1#issuecomment-417949603) 提到的 config 錯誤  
+
 2018-09-02
   - 修復排序有時候會跑掉的問題
   - 允許用右鍵選單來設定排序方式
