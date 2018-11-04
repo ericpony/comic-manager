@@ -6,22 +6,31 @@
 
 ## 程式下載
 
-- 最近更新：2018-09-10
+- 最近更新：2018-11-04
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-09-10" target="_blank">主程式 (免安裝)</a>，檔案大小 416KB
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-11-04" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
 
     <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
-- 更新軟體版本時只需要重新下載主程式就好。
+- 更新軟體版本時，只需重新下載主程式的執行檔就好 (注意不要覆蓋掉自己原本的 config.xml 檔案)。
 
 ## 更新紀錄
  
+2018-11-04
+  - 允許在搜尋欄位使用 AND 和 OR (見[使用說明](#使用說明))
+  
+2018-11-03
+  - 改進標籤編輯視窗的功能
+  - 支援批次新增/刪除/置換標籤
+  - 支援安全刪檔 (搬移到資源回收桶)
+  - 增加快速鍵 (見[使用說明](#使用說明))
+  
 2018-09-10
   - 允許用畫面下方的評分鈕為選取的檔案評分 (可一次選取多個檔案)
   - 修復左上搜尋框在打字時 focus 會跳掉的問題
   - 修復 [Issue #1](https://github.com/kokorolove/comic-manager/issues/1#issuecomment-417949603) 提到的 config 錯誤  
-  - 增加快速鍵 (見使用說明)
+  - 增加快速鍵 (見[使用說明](#使用說明))
 
 2018-09-02
   - 修復排序有時候會跑掉的問題
@@ -39,7 +48,7 @@
 - Windows 7/8/10
 - <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime ver 4.6.1 or later</a>
 
-## 使用方式
+## 使用說明
  
 - <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
 - 常用快速鍵：  
@@ -47,7 +56,18 @@
     F2： 修改檔名或檔案標籤  
     F3： 設定關鍵字，只顯示同作者的檔案  
     F4： 編輯預覽圖  
-    F5： 重新整理 (可載入磁碟上新增加的檔案)  
+    F5： 重新整理 (可載入磁碟上新增加的檔案)<br />
+    O： 使用系統預設的程式開啟檔案<br />
+    E：  在檔案總管中檢視檔案<br />
+    Delete： 將選取的檔案搬到資源回收桶<br />
+    
+- 關鍵字搜尋：
+    - 搜尋不分大小寫
+    - 目前支援 AND (&) 和 OR (|) 操作符，但兩者不能混用<br />
+    例一：A&B 搜尋同時包含 A 和 B 的檔案<br />
+    例二：A|B|C 搜尋包含 A 或 B 或 C 的檔案<br />
+    - 當 Filter 選擇 Artist (搜尋作者)或 Title (搜尋標題)時，可使用引號 (") 搜尋完整字詞<br />
+    例：使用 "HELL" 搜尋時 HELLO 會被過濾掉。
 
 ## 注意事項
 
