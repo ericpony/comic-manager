@@ -8,7 +8,7 @@
 
 - 最近更新：2018-11-05
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-11-05" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-11-05v2" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
 
     <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
