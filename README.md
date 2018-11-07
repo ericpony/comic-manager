@@ -6,9 +6,9 @@
 
 ## 程式下載
 
-- 最近更新：2018-11-05
+- 最近更新：2018-11-07
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-11-05v2" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
+    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-11-07" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
 
     <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
@@ -17,11 +17,12 @@
 
 ## 更新紀錄
  
-2018-11-05
+2018-11-07
   - 允許在搜尋欄位使用 AND 和 OR (見[使用說明](#使用說明))
-  
-2018-11-04
-  - 改進標籤編輯視窗的功能
+  - 允許左上方的列表用右鍵新增/移除目錄 (會自動儲存)
+  - 優化標籤編輯視窗
+
+2018-11-05  
   - 支援批次新增/刪除/置換標籤
   - 支援安全刪檔 (搬移到資源回收桶)
   - 增加快速鍵 (見[使用說明](#使用說明))
@@ -35,8 +36,6 @@
 2018-09-02
   - 修復排序有時候會跑掉的問題
   - 允許用右鍵選單來設定排序方式
-
-2018-08-31
   - 允許檔名中的第一個標籤代表年份 (例如 "C94")
  
 2018-08-30
