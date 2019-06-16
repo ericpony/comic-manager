@@ -67,6 +67,12 @@
     例：`A | B | C` 可搜尋欄位內容包含 A 或 B 或 C 的檔案<br />
     - 當 Filter 選擇 Artist (搜尋作者)或 Title (搜尋標題)時，可使用引號 (") 搜尋完整字詞<br />
     例：使用 `"HELL"` 搜尋時 HELLO 會被過濾掉。
+    
+- 標籤編輯視窗
+
+<a href="https://user-images.githubusercontent.com/42807610/47758647-d2d8be80-dca3-11e8-8588-dc48ae4f8718.png"><img src="https://user-images.githubusercontent.com/42807610/47758647-d2d8be80-dca3-11e8-8588-dc48ae4f8718.png"></a>
+
+  - 程式會自動從漫畫壓縮檔的檔名中抽取標籤，選取檔案後按 F2 後會出現標籤編輯視窗，在視窗中可修改/增加/刪除檔案的標籤，清空文字欄位即可移除對應的標籤。
 
 ## 注意事項
 
