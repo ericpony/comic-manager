@@ -1,6 +1,6 @@
 # comic-manager
 
-<a href="https://kokorolove.github.io/comic-manager/manual/images/screenshot.png" target="_blank"><img src="https://kokorolove.github.io/comic-manager/manual/images/screenshot.png"/></a>
+<a href="https://ericpony.github.io/comic-manager/manual/images/screenshot.png" target="_blank"><img src="https://ericpony.github.io/comic-manager/manual/images/screenshot.png"/></a>
 
 島民版漫畫書庫管理程式
 
@@ -8,9 +8,9 @@
 
 - 最近更新：2018-11-07
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager.rar?ver=2018-11-07" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager.rar?ver=2018-11-07" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
 
-    <a href="https://kokorolove.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
 - 更新軟體版本時，只需重新下載主程式的執行檔就好 (注意不要覆蓋掉自己原本的 config.xml 檔案)。
@@ -30,7 +30,7 @@
 2018-09-10
   - 允許用畫面下方的評分鈕為選取的檔案評分 (可一次選取多個檔案)
   - 修復左上搜尋框在打字時 focus 會跳掉的問題
-  - 修復 [Issue #1](https://github.com/kokorolove/comic-manager/issues/1#issuecomment-417949603) 提到的 config 錯誤  
+  - 修復 [Issue #1](https://github.com/ericpony/comic-manager/issues/1#issuecomment-417949603) 提到的 config 錯誤  
   - 增加快速鍵 (見[使用說明](#使用說明))
 
 2018-09-02
@@ -49,7 +49,7 @@
 
 ## 使用說明
  
-- <a href="https://kokorolove.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
+- <a href="https://ericpony.github.io/comic-manager/manual/images/manual.png" target="_blank">基本使用方法圖解</a>，等有空時再寫詳細一點 (´・ω・`) 
 - 常用快速鍵：  
     Esc：重設關鍵字，顯示所有檔案  
     F2： 修改檔名或檔案標籤  
@@ -121,7 +121,7 @@
 
 3. 程式內建數種排版方式 (renderer)，除了預設模式之外其他的都還在測試中
 
-  暫時先這樣，如果有任何操作問題/功能建議/錯誤回報，都歡迎在本專案[發 issue 討論](https://github.com/kokorolove/comic-manager/issues/new) (需註冊 Github 帳號)，謝謝大家 ≡(　ε:)
+  暫時先這樣，如果有任何操作問題/功能建議/錯誤回報，都歡迎在本專案[發 issue 討論](https://github.com/ericpony/comic-manager/issues/new) (需註冊 Github 帳號)，謝謝大家 ≡(　ε:)
 
 ## 已知問題
  
