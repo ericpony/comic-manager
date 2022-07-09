@@ -12,9 +12,9 @@
 
 - 最近更新：2022-07-09
 
-    <a href="https://ericpony.github.io/comic-manager/comic-manager.rar" target="_blank">主程式 (免安裝)</a>，檔案大小 2MB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager.exe" target="_blank">主程式 (免安裝)</a>，檔案大小 2MB
 
-    <a href="https://ericpony.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛 (非必要)</a>，檔案大小 30MB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager.video-decoder.rar" target="_blank">視訊解碼外掛 (非必要)</a>，檔案大小 30MB
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
 
