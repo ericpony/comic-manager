@@ -4,19 +4,30 @@
 
 島民版漫畫書庫管理程式
 
+設計概念: 下載好的漫畫不必解壓縮，也不必手動建立資料夾分類。使用此漫畫管理程式，只需要把所有壓縮檔都放在同一個資料夾即可，程式會依照檔名內的標籤為漫畫分類。
+
+本程式在第一次開啟時，會要求你設定一個支援免解壓的看圖工具 (例如 [CDisplayEx](http://www.cdisplayex.com/)，[HoneyView](https://tw.bandisoft.com/honeyview/) 等)。這個設定之後可以在設定檔 `config.xml` (位於程式所在目錄，程式啟動後會自動產生) 手動更改。
+
 ## 程式下載
 
-- 最近更新：2018-11-07
+- 最近更新：2022-07-09
 
-    <a href="https://ericpony.github.io/comic-manager/comic-manager.rar?ver=2018-11-07" target="_blank">主程式 (免安裝)</a>，檔案大小 304KB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager.rar" target="_blank">主程式 (免安裝)</a>，檔案大小 2MB
 
-    <a href="https://ericpony.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛</a>，檔案大小 30MB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager - video thumb extension.rar" target="_blank?">視訊解碼外掛 (非必要)</a>，檔案大小 30MB
  
 - 外掛是兩個視訊解碼用的 DLL 檔，把這兩個檔案和主程式放在一起，可以讓程式生成和編輯視訊檔案的預覽圖。
-- 更新軟體版本時，只需重新下載主程式的執行檔就好 (注意不要覆蓋掉自己原本的 config.xml 檔案)。
+
+- 更新軟體版本時，只需重新下載主程式的執行檔就好。
 
 ## 更新紀錄
- 
+
+2022-07-09
+  - 讓程式自動生成 `config.xml`，不再需要手動建立
+  - 移除 Save 按鈕，往後自動儲存更動
+  - 修正無法從右鍵選單改檔名的問題
+  - 修正左下 Tag 列表的儲存問題
+
 2018-11-07
   - 允許在搜尋欄位使用 AND 和 OR (見[使用說明](#使用說明))
   - 允許左上方的列表用右鍵新增/移除目錄 (會自動儲存)
@@ -76,29 +87,7 @@
 
 ## 注意事項
 
-1. 下載之後要先用文字處理器編輯 config.xml 這個檔案，填入
-  - 外掛程式的路徑 (路徑可支援中日文)：
-    - 支援免解壓的看圖程式 (例如 [CDisplayEx](http://www.cdisplayex.com/)，[HoneyView](https://tw.bandisoft.com/honeyview/) 等)
-    - 網頁瀏覽器 (如果想使用右鍵網路搜尋功能)
-    - 媒體播放軟體 (如果想左鍵播放影片檔)
-  - 漫畫壓縮檔所在的根目錄
-
-  設定正確以後程式才能正常運作。以下是我在自己電腦用的設定。
-
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<configuration>
-  <appSettings>
-    <add key="RootDir" value="H:\COMIC;D:\DATA\COMIC;" />
-    <add key="ComicViewer" value="C:\Program Files\CDisplayEx\CDisplayEx.exe" />
-    <add key="WebBrowser" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
-    <add key="MediaPlayer" value="C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe" />
-    <add key="StartupDir" value="H:\COMIC" />
-  </appSettings>
-</configuration>
-```
-
-2. 程式預設的檔名格式是 `[年份] [作者名] 本子標題 (tag1) (tag2)...`
+1. 程式預設的檔名格式是 `[年份] [作者名] 本子標題 (tag1) (tag2)...`
   - 第一個標籤可以是年份 (例如"C92") 或作者。如果第一個標籤不是作者，則預設把第二個標籤視為作者。
   - 標籤用圓括號 `(tag)` 或方括號 `[tag]` 都可以（注意括號要用半形字）
   - 標籤裡面可以包含其他括號，標籤之間可以任意空格。
@@ -119,7 +108,7 @@
     
   注意：程式雖然可以辨認年份標籤，但是年份不會顯示在檔案資訊和標籤欄位裡。
 
-3. 程式內建數種排版方式 (renderer)，除了預設模式之外其他的都還在測試中
+2. 程式內建數種排版方式 (renderer)，除了預設模式之外其他的都還在測試中
 
   暫時先這樣，如果有任何操作問題/功能建議/錯誤回報，都歡迎在本專案[發 issue 討論](https://github.com/ericpony/comic-manager/issues/new) (需註冊 Github 帳號)，謝謝大家 ≡(　ε:)
 
