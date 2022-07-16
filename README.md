@@ -4,15 +4,15 @@
 
 島民版漫畫書庫管理程式
 
-設計概念: 下載好的漫畫不必解壓縮，也不必手動建立資料夾分類。使用此漫畫管理程式，只需要把所有壓縮檔都放在同一個資料夾即可，程式會依照檔名內的標籤為漫畫分類。
+**設計概念 :** 下載好的漫畫不必解壓縮，也不必手動建立資料夾分類。使用此漫畫管理程式，只需把漫畫壓縮檔放在同一個資料夾，程式就會依照檔名內的標籤為漫畫分類。
 
 本程式在第一次開啟時，會要求你設定一個支援免解壓的看圖工具 (例如 [CDisplayEx](http://www.cdisplayex.com/)，[HoneyView](https://tw.bandisoft.com/honeyview/) 等)。這個設定之後可以在設定檔 `config.xml` (位於程式所在目錄，程式啟動後會自動產生) 手動更改。
 
 ## 程式下載
 
-- 最近更新：2022-07-09
+- 最近更新：2022-07-16
 
-    <a href="https://ericpony.github.io/comic-manager/comic-manager.exe" target="_blank">主程式 (免安裝)</a>，檔案大小 2MB
+    <a href="https://ericpony.github.io/comic-manager/comic-manager.exe" target="_blank">主程式 (免安裝)</a>，檔案大小 2.7MB
 
     <a href="https://ericpony.github.io/comic-manager/comic-manager.video-decoder.rar" target="_blank">視訊解碼外掛 (非必要)</a>，檔案大小 30MB
  
@@ -21,6 +21,9 @@
 - 更新軟體版本時，只需重新下載主程式的執行檔就好。
 
 ## 更新紀錄
+
+2022-07-16
+  - 支援 [Solid RAR](https://en.wikipedia.org/wiki/Solid_compression) 的縮圖生成與編輯
 
 2022-07-09
   - 讓程式自動生成 `config.xml`，不再需要手動建立
@@ -55,7 +58,7 @@
 
 ## 系統需求
 
-- Windows 7/8/10
+- Windows 7/8/10/11
 - <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime ver 4.6.1 or later</a>
 
 ## 使用說明
@@ -111,11 +114,6 @@
 2. 程式內建數種排版方式 (renderer)，除了預設模式之外其他的都還在測試中
 
   暫時先這樣，如果有任何操作問題/功能建議/錯誤回報，都歡迎在本專案[發 issue 討論](https://github.com/ericpony/comic-manager/issues/new) (需註冊 Github 帳號)，謝謝大家 ≡(　ε:)
-
-## 已知問題
- 
-- 因為工具庫本身的限制，使用 [Solid 模式](https://en.wikipedia.org/wiki/Solid_compression)壓縮的檔案目前無法產生縮圖
-- 雖然可以個別為每部漫畫評分，但是目前還無法依評分來排序檔案
 
 ## 預定更新
 

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
     <appSettings>
-        <add key="RootDir" value="H:\COMIC;D:\DATA\COMIC;" />
         <add key="ComicViewer" value="C:\Program Files\CDisplayEx\CDisplayEx.exe" />
-        <add key="WebBrowser" value="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" />
-        <add key="MediaPlayer" value="C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe" />
-        <add key="StartupDir" value="H:\COMIC" />
     </appSettings>
 </configuration>
