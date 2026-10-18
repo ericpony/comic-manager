@@ -10,7 +10,7 @@
 
 ## 程式下載
 
-- 最近更新：2026-06-21
+- 最近更新：2026-10-18
 
     <a href="https://ericpony.github.io/comic-manager/comic-manager.exe" target="_blank">主程式 (免安裝)</a>，檔案大小 2.7MB
 
@@ -21,6 +21,9 @@
 - 更新軟體版本時，只需重新下載主程式的執行檔就好。
 
 ## 更新紀錄
+
+2026-10-18
+  - 修正 authors.txt 在特定條件下會被意外清空的問題。
 
 2026-06-21
   - 支援 WebP 的縮圖生成與編輯 (若無法生成請到 [Microsoft Store](https://apps.microsoft.com/detail/9pg2dk419drg) 安裝解碼器)
