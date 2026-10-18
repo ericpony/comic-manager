@@ -23,7 +23,7 @@
 ## 更新紀錄
 
 2026-10-18
-  - 修正 authors.txt 在特定條件下會被意外清空的問題。
+  - 修正 authors.txt 在特定條件下會被意外清空的問題。升級執行環境到 .NET Framework 4.8
 
 2026-06-21
   - 支援 WebP 的縮圖生成與編輯 (若無法生成請到 [Microsoft Store](https://apps.microsoft.com/detail/9pg2dk419drg) 安裝解碼器)
@@ -65,7 +65,7 @@
 ## 系統需求
 
 - Windows 7/8/10/11
-- <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime ver 4.6.1 or later</a>
+- <a href="https://www.microsoft.com/net/download/dotnet-framework-runtime" target="_blank">.NET Framework Runtime 4.8 or later</a>
 
 ## 使用說明
  
